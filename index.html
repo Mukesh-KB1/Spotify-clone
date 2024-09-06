@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/logo.png">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <!-- Top sidebar -->
+           <div class="sidebar-nav">
+            <div style="opacity: 1;">
+                <i class="fa-solid fa-house"></i> 
+                <a href="#" >Home</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-magnifying-glass"></i> 
+                <a href="#">Search</a>
+            </div>
+           </div>
+<!--         sidebar library top -->
+           <div class="sidebar-library">
+
+            <div class="lib-head">
+                <div class="library-link">
+                    <img src="./assets/library_icon.png">
+                    <a href="#">Your Library</a>
+                </div>
+                <div class="library-icon">
+                    <a href="#"><i class="fa-solid fa-plus"></i></a>
+                    <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <!-- Side-library main items -->
+            <div class="lib-items">
+                <div class="box">
+                    <p>Create your first playlist</p>
+                    <p style="font-size: 0.8rem; font-weight: 300;">it's easy, we'll help you</p>
+                    <button class="btn">Create playlist</button>
+                </div>
+
+                <div class="box">
+                    <p>Let's find some podcast to follow</p>
+                    <p style="font-size: 0.8rem; font-weight: 300;">We'll keep you updated on New episodes</p>
+                    <button class="btn">Browse podcasts</button>
+                </div>
+
+            </div>
+           </div>
+        </div>
+
+        <!-- Main -->
+        <div class="main-items">
+
+            <div class="main-items-nav">
+                <div class="main-items-nav-1">
+                    <i class="fa-solid fa-chevron-left"></i>
+                    <i class="fa-solid fa-chevron-right" id="main-items-nav-1-Hide"></i>
+                </div>
+                
+                <div class="main-items-nav-2">
+                    <button class="btn"  id="main-items-nav-2-btn-hide">Explore premium</button>
+                    <button class="btn  nav-user-icon-install"><i class="fa-regular fa-circle-down" ></i>Install App</button>
+                    <i class="fa-regular fa-user nav-user-icon " id=""></i>
+                </div>
+            </div>
+
+
+            <h2>ViralGram !</h2>
+                <div class="main-items-content">
+                    <div class="card">
+                       <img src="./Trend/pic1.png" alt="">
+                       <p class="title">Trending Valentine's Hits</p>
+                       <p class="para">India's Ultimate Love Playlist featuring a mix of Hindi...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./Trend/pic2.png" alt="">
+                        <p class="title">Tending Now Telegu</p>
+                        <p class="para">Trending songs from Tollywood Cover: Guntur...</p>
+                     </div>
+                     <div class="card">
+                        <img src="./Trend/pic3.png" alt="">
+                        <p class="title">Tending Now India</p>
+                        <p class="para">Every track you're listening/should be listenin...</p>
+                     </div>
+                </div>
+
+                <h2>Charts</h2>
+                <div class="main-items-content">
+                    <div class="card">
+                       <img src="./Hot/pic1.png" alt="">
+                       <p class="title">Hot Hits Hindi</p>
+                       <p class="para">Hottest Hindi music served here, Cover-...</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="./Hot/pic2.png" alt="">
+                        <p class="title">Hot Hits Tamil</p>
+                        <p class="para">Tune into the Hottest tracks of Kollywood...</p>
+                     </div>
+
+                     <div class="card">
+                        <img src="./Hot/pic3.png" alt="">
+                        <p class="title">Hot Hits Telegu</p>
+                        <p class="para">Your daily update of the most played...</p>
+                     </div>
+
+                     <div class="card">
+                        <img src="./Hot/pic4.png" alt="">
+                        <p class="title">Hot Hits Hindi</p>
+                        <p class="para">Your daily update of the most played...</p>
+                     </div>
+
+                     
+                </div>
+
+                <h2>Podcast</h2>
+                <div class="main-items-content">
+                    <div class="card">
+                       <img src="./podcast/pic1.png" alt="">
+                       <p class="title">Top 50-Global</p>
+                       <p class="para">Your daily update of the most played...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./podcast/pic2.png" alt="">
+                        <p class="title">Top 50-Global</p>
+                        <p class="para">Your daily update of the most played...</p>
+                     </div>
+                     <!-- <div class="card">
+                        <img src="./podcast/pic3.png" alt="">
+                        <p class="title">Top 50-Global</p>
+                        <p class="para">Your daily update of the most played...</p>
+                     </div> -->
+                     <div class="card">
+                        <img src="./podcast/pic4.png" alt="">
+                        <p class="title">Top 50-Global</p>
+                        <p class="para">Your daily update of the most played...</p>
+                     </div>
+                     <div class="card">
+                        <img src="./podcast/pic5.png" alt="">
+                        <p class="title">Top 50-Global</p>
+                        <p class="para">Your daily update of the most played...</p>
+                     </div>
+                </div>
+
+                <h2>Radio</h2>
+                <div class="main-items-content">
+                    <div class="card">
+                       <img src="./radio/pic1.png" alt="">
+                       <p class="title">Top 50-Global</p>
+                       <p class="para">Your daily update of the most played...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./radio/pic2.png" alt="">
+                        <p class="title">Top 50-Global</p>
+                        <p class="para">Your daily update of the most played...</p>
+                     </div>
+                     <div class="card">
+                        <img src="./radio/pic3.png" alt="">
+                        <p class="title">Top 50-Global</p>
+                        <p class="para">Your daily update of the most played...</p>
+                     </div>
+                     <div class="card">
+                        <img src="./radio/pic4.png" alt="">
+                        <p class="title">Top 50-Global</p>
+                        <p class="para">Your daily update of the most played...</p>
+                     </div>
+                     <div class="card">
+                        <img src="./radio/pic5.png" alt="">
+                        <p class="title">Top 50-Global</p>
+                        <p class="para">Your daily update of the most played...</p>
+                     </div>
+                     <div class="card">
+                        <img src="./radio/pic6.png" alt="">
+                        <p class="title">Top 50-Global</p>
+                        <p class="para">Your daily update of the most played...</p>
+                     </div>
+                </div>
+            
+                <div class="footer-first-section">
+                    <div class="ffs-first">
+                        <div style="display: flex; flex-direction: column;">
+                            <p>Company</p>
+                            <a href="#">About</a>
+                            <a href="#">Jobs</a>
+                            <a href="#">For the Record</a>
+                        </div>
+                        <div style="display: flex; flex-direction: column;">
+                            <p>Communities</p>
+                            <a href="#">For Artists</a>
+                            <a href="#">Developers</a>
+                            <a href="#">Advertising</a>
+                            <a href="#">investors</a>
+                            <a href="#">Vendors</a>
+                        </div>
+                        <div style="display: flex; flex-direction: column;">
+                            <p>Useful links</p>
+                            <a href="#">Support</a>
+                            <a href="#">Free the Mobile App</a>
+                        </div>
+                        
+                    </div>
+
+                    <div class="ffs-second">
+                        <a href="#"><i class="fa-brands fa-instagram" id="B-icon"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter" id="B-icon"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook" id="B-icon"></i></a>
+
+                    </div>
+                </div>
+
+                
+                <div class="footer-bar">
+                    <div>
+                        <a class="footer-bar-a" href="#">Legal</a>
+                        <a class="footer-bar-a" href="#">Safety & Privacy Center</a>
+                        <a class="footer-bar-a" href="#">Privacy Policy</a>
+                        <a class="footer-bar-a" href="#">Cookies</a>
+                        <a class="footer-bar-a" href="#">About Ads</a>
+                        <a class="footer-bar-a" href="#">Accessibility</a>
+                    </div>
+                    <div style="opacity: 0.6;">© 2024 Spotify AB</div>
+                </div>
+
+            </div>
+                
+
+        <!-- Music player -->
+        <div class="music-player">
+            <div class="Left-bar">
+                <img src="./assets/album_pictureE.png" alt="">
+                <div>
+                    <a href="google.com" style="font-weight: 600; font-size: 0.85rem; cursor: pointer;">Perfect</a>
+                    <a style="opacity: 0.7; margin-top: 0.3rem; cursor: pointer;">Ed sheeran</a>
+                </div>
+                <img src="./assets/album_icon1.png" class="Heart-icon" alt="">
+            </div>
+            <div class="mid-bar">
+                <div>
+                    <a href="#"><img src="./assets/player_icon1.png" alt=""></a>
+                    <a href="#"><img src="./assets/player_icon2.png" alt=""></a>
+                    <a href="#"><img style="height: 2rem; opacity: 1;" src="./assets/player_icon3.png" alt=""></a>
+                    <a href="#"><img src="./assets/player_icon4.png" alt=""></a>
+                    <a href="#"><img src="./assets/player_icon5.png" alt=""></a>
+                </div>
+                <div>
+                    <span>1:00</span>
+                    <input type="range" min="0" max="100" value="70" id="slider">
+                    <span>3:55</span>
+                </div>
+            </div>
+            <div class="right-bar">
+                <img style="height:2.3rem;" src="./assets/controls_icon1.png" alt="">
+                <img style="height:2rem;" src="./assets/controld_icon2.png" alt="">
+                <img style="height:1.4rem; opacity: 0.6;" src="./assets/controls_icon3.png" alt="">
+                <img style="height:1.1rem; opacity: 0.6;" src="./assets/controls_icon4.png" alt="">
+                <img style="height:2.5rem;" src="./assets/controls_icon5.png" alt="">
+                <input type="range" id="Second-rangebar" min="0" max="100" value="50" id="">
+                <img style="height:2.2rem; margin-left:0.5rem;" src="./assets/album_icon2.png" alt="">
+            </div>
+        </div>
+    </div>
+</body>      
+</html>

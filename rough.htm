@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/logo.png">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+     
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            color: antiquewhite;
+        }
+        body{
+            background-color: black;
+        }
+        /* 
+        .container{
+            width: 50%;
+             border: 2px solid grey; 
+            margin: 25% auto;
+            position: relative;
+        }
+        #slider{
+            width: 100%;
+            appearance: none;
+            height: 0.2rem;
+            border-radius: 1rem;
+            outline: none;
+        }
+        #slider::-webkit-slider-thumb{
+            appearance: none;
+            background-color: chartreuse;
+            height: 1rem;
+            width: 1rem;
+            border-radius: 50%;
+            cursor: pointer;
+        } */
+         div span{
+          font-size: 0.7rem;
+          margin:0 0.5rem 0.7rem;
+          opacity: 0.6;
+        }
+        #slider{
+    width: 100%;
+    appearance: none;
+    height: 0.2rem;
+    border-radius: 1rem;
+    outline: none;
+    /* position: relative; */
+}
+#slider::-webkit-slider-thumb{
+    appearance: none;
+    background-color: chartreuse;
+    height: 1rem;
+    width: 1rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+    </style>
+
+
+</head>
+<body>
+    <!-- <div class="container">
+        <input type="range" min="0" max="100" value="60" id="slider">
+    </div> -->
+    <div style="width:50%;">
+        <span>1:00</span>
+        <input type="range" min="0" max="100" value="70" id="slider">
+        <span>3:55</span>
+    </div>
+</body>      
+</html>
