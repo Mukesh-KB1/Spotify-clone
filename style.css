@@ -118,9 +118,9 @@ a{
 
 /* lib-items */
 
-.lib-items{
+/* .lib-items{ */
     /* overflow:auto ; */
-}
+/* } */
 
 .box{
     background-color: #272628;
@@ -427,7 +427,7 @@ h2{
 }
 
 #slider{
-    -webkit-appearance:none;
+    /* -webkit-appearance:none; */
     width: 70%;
     height: 0.25rem;
     border-radius: 1rem;
