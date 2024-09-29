@@ -427,7 +427,7 @@ h2{
 }
 
 #slider{
-    -webkit-appearance:none;
+    /* -webkit-appearance:none; */
     width: 70%;
     height: 0.25rem;
     border-radius: 1rem;
