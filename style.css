@@ -427,7 +427,11 @@ h2{
 }
 
 #slider{
+<<<<<<< HEAD
     /* -webkit-appearance:none; */
+=======
+    -webkit-appearance:none;
+>>>>>>> 148c141fa7af22555484aa10200cb63d739c63b1
     width: 70%;
     height: 0.25rem;
     border-radius: 1rem;
